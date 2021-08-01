@@ -1,0 +1,103 @@
+2018-05-26 16:10:19.311 20610 WARNING oslo_config.cfg [-] Option "enabled_drivers" from group "DEFAULT" is deprecated for removal (Hardware types should be used instead of classic drivers. They are enabled via the enabled_hardware_types option.).  Its value may be silently ignored in the future.
+2018-05-26 16:10:19.323 20610 WARNING oslo_config.cfg [-] Option "api_url" from group "conductor" is deprecated for removal (Use [service_catalog]endpoint_override option instead if required to use a specific ironic api address, for example in noauth mode.).  Its value may be silently ignored in the future.
+2018-05-26 16:10:21.026 20610 INFO ironic.drivers.modules.ipmitool [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Option timing is supported by ipmitool
+2018-05-26 16:10:21.047 20610 INFO ironic.drivers.modules.ipmitool [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Option single_bridge is supported by ipmitool
+2018-05-26 16:10:21.069 20610 INFO ironic.drivers.modules.ipmitool [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Option dual_bridge is supported by ipmitool
+2018-05-26 16:10:21.123 20610 WARNING ironic.common.driver_factory [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Driver "pxe_ilo" is UNSUPPORTED. It has been deprecated and may be removed in a future release.
+2018-05-26 16:10:21.123 20610 WARNING ironic.common.driver_factory [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Driver "pxe_drac" is UNSUPPORTED. It has been deprecated and may be removed in a future release.
+2018-05-26 16:10:21.124 20610 WARNING ironic.common.driver_factory [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Driver "pxe_ipmitool" is UNSUPPORTED. It has been deprecated and may be removed in a future release.
+2018-05-26 16:10:21.124 20610 INFO ironic.common.driver_factory [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Loaded the following drivers: ['pxe_ilo', 'pxe_drac', 'pxe_ipmitool']
+2018-05-26 16:10:21.131 20610 INFO ironic.common.driver_factory [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Loaded the following hardware types: ['idrac', 'ilo', 'redfish', 'ipmi']
+2018-05-26 16:10:21.133 20610 INFO ironic.common.driver_factory [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Loaded the following network interfaces: ['flat', 'noop']
+2018-05-26 16:10:21.134 20610 INFO ironic.common.driver_factory [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Loaded the following storage interfaces: ['cinder', 'noop']
+2018-05-26 16:10:21.221 20610 INFO ironic.common.driver_factory [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Loaded the following management interfaces: ['idrac', 'ipmitool', 'ilo', 'redfish', 'fake']
+2018-05-26 16:10:21.223 20610 INFO ironic.common.driver_factory [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Loaded the following console interfaces: ['ipmitool-socat', 'no-console']
+2018-05-26 16:10:21.225 20610 INFO ironic.common.driver_factory [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Loaded the following power interfaces: ['idrac', 'ipmitool', 'ilo', 'redfish', 'fake']
+2018-05-26 16:10:21.228 20610 INFO ironic.common.driver_factory [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Loaded the following deploy interfaces: ['iscsi', 'direct', 'ansible']
+2018-05-26 16:10:21.230 20610 INFO ironic.common.driver_factory [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Loaded the following inspect interfaces: ['no-inspect', 'inspector']
+2018-05-26 16:10:21.235 20610 INFO ironic.common.driver_factory [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Loaded the following boot interfaces: ['ilo-pxe', 'pxe']
+2018-05-26 16:10:21.237 20610 INFO ironic.common.driver_factory [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Loaded the following vendor interfaces: ['idrac', 'ipmitool', 'no-vendor']
+2018-05-26 16:10:21.239 20610 INFO ironic.common.driver_factory [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Loaded the following raid interfaces: ['no-raid', 'idrac']
+2018-05-26 16:10:21.241 20610 INFO ironic.common.driver_factory [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Loaded the following rescue interfaces: ['no-rescue']
+2018-05-26 16:10:21.501 20610 INFO ironic.conductor.base_manager [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Successfully started conductor with hostname localhost.localdomain.
+2018-05-26 16:10:21.502 20610 INFO ironic.common.rpc_service [req-615fb3ee-d49d-4c9c-ad8c-d4472dce5482 - - - - -] Created RPC server for service ironic.conductor_manager on host localhost.localdomain.
+2018-05-26 16:21:19.558 20610 INFO ironic.conductor.base_manager [-] Successfully stopped conductor with hostname localhost.localdomain.
+2018-05-26 16:21:19.565 20610 INFO ironic.conductor.base_manager [-] Successfully shut down periodic tasks
+2018-05-26 16:21:19.565 20610 INFO ironic.common.rpc_service [-] Stopped RPC server for service ironic.conductor_manager on host localhost.localdomain.
+2018-05-26 16:21:21.664 27562 WARNING oslo_config.cfg [-] Option "enabled_drivers" from group "DEFAULT" is deprecated for removal (Hardware types should be used instead of classic drivers. They are enabled via the enabled_hardware_types option.).  Its value may be silently ignored in the future.
+2018-05-26 16:21:21.676 27562 WARNING oslo_config.cfg [-] Option "api_url" from group "conductor" is deprecated for removal (Use [service_catalog]endpoint_override option instead if required to use a specific ironic api address, for example in noauth mode.).  Its value may be silently ignored in the future.
+2018-05-26 16:21:23.445 27562 INFO ironic.drivers.modules.ipmitool [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Option timing is supported by ipmitool
+2018-05-26 16:21:23.467 27562 INFO ironic.drivers.modules.ipmitool [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Option single_bridge is supported by ipmitool
+2018-05-26 16:21:23.487 27562 INFO ironic.drivers.modules.ipmitool [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Option dual_bridge is supported by ipmitool
+2018-05-26 16:21:23.524 27562 WARNING ironic.common.driver_factory [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Driver "pxe_ilo" is UNSUPPORTED. It has been deprecated and may be removed in a future release.
+2018-05-26 16:21:23.525 27562 WARNING ironic.common.driver_factory [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Driver "pxe_drac" is UNSUPPORTED. It has been deprecated and may be removed in a future release.
+2018-05-26 16:21:23.525 27562 WARNING ironic.common.driver_factory [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Driver "pxe_ipmitool" is UNSUPPORTED. It has been deprecated and may be removed in a future release.
+2018-05-26 16:21:23.526 27562 INFO ironic.common.driver_factory [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Loaded the following drivers: ['pxe_ilo', 'pxe_drac', 'pxe_ipmitool']
+2018-05-26 16:21:23.530 27562 INFO ironic.common.driver_factory [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Loaded the following hardware types: ['idrac', 'ilo', 'redfish', 'ipmi']
+2018-05-26 16:21:23.532 27562 INFO ironic.common.driver_factory [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Loaded the following network interfaces: ['flat', 'noop']
+2018-05-26 16:21:23.533 27562 INFO ironic.common.driver_factory [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Loaded the following storage interfaces: ['cinder', 'noop']
+2018-05-26 16:21:23.617 27562 INFO ironic.common.driver_factory [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Loaded the following management interfaces: ['idrac', 'ipmitool', 'ilo', 'redfish', 'fake']
+2018-05-26 16:21:23.618 27562 INFO ironic.common.driver_factory [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Loaded the following console interfaces: ['ipmitool-socat', 'no-console']
+2018-05-26 16:21:23.620 27562 INFO ironic.common.driver_factory [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Loaded the following power interfaces: ['idrac', 'ipmitool', 'ilo', 'redfish', 'fake']
+2018-05-26 16:21:23.622 27562 INFO ironic.common.driver_factory [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Loaded the following deploy interfaces: ['iscsi', 'direct', 'ansible']
+2018-05-26 16:21:23.624 27562 INFO ironic.common.driver_factory [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Loaded the following inspect interfaces: ['no-inspect', 'inspector']
+2018-05-26 16:21:23.629 27562 INFO ironic.common.driver_factory [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Loaded the following boot interfaces: ['ilo-pxe', 'pxe']
+2018-05-26 16:21:23.631 27562 INFO ironic.common.driver_factory [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Loaded the following vendor interfaces: ['idrac', 'ipmitool', 'no-vendor']
+2018-05-26 16:21:23.633 27562 INFO ironic.common.driver_factory [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Loaded the following raid interfaces: ['no-raid', 'idrac']
+2018-05-26 16:21:23.634 27562 INFO ironic.common.driver_factory [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Loaded the following rescue interfaces: ['no-rescue']
+2018-05-26 16:21:23.925 27562 INFO ironic.conductor.base_manager [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Successfully started conductor with hostname localhost.localdomain.
+2018-05-26 16:21:23.926 27562 INFO ironic.common.rpc_service [req-3ee45dc9-74c2-47e6-9753-304b9c5ebc7e - - - - -] Created RPC server for service ironic.conductor_manager on host localhost.localdomain.
+2018-05-26 16:23:28.732 27562 INFO ironic.conductor.base_manager [-] Successfully stopped conductor with hostname localhost.localdomain.
+2018-05-26 16:23:28.737 27562 INFO ironic.conductor.base_manager [-] Successfully shut down periodic tasks
+2018-05-26 16:23:28.738 27562 INFO ironic.common.rpc_service [-] Stopped RPC server for service ironic.conductor_manager on host localhost.localdomain.
+2018-05-26 16:23:30.908 28575 WARNING oslo_config.cfg [-] Option "enabled_drivers" from group "DEFAULT" is deprecated for removal (Hardware types should be used instead of classic drivers. They are enabled via the enabled_hardware_types option.).  Its value may be silently ignored in the future.
+2018-05-26 16:23:30.921 28575 WARNING oslo_config.cfg [-] Option "api_url" from group "conductor" is deprecated for removal (Use [service_catalog]endpoint_override option instead if required to use a specific ironic api address, for example in noauth mode.).  Its value may be silently ignored in the future.
+2018-05-26 16:23:30.929 28575 WARNING oslo_config.cfg [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Option "rpc_thread_pool_size" from group "DEFAULT" is deprecated. Use option "executor_thread_pool_size" from group "DEFAULT".
+2018-05-26 16:23:33.017 28575 INFO ironic.drivers.modules.ipmitool [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Option timing is supported by ipmitool
+2018-05-26 16:23:33.040 28575 INFO ironic.drivers.modules.ipmitool [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Option single_bridge is supported by ipmitool
+2018-05-26 16:23:33.065 28575 INFO ironic.drivers.modules.ipmitool [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Option dual_bridge is supported by ipmitool
+2018-05-26 16:23:33.104 28575 WARNING ironic.common.driver_factory [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Driver "pxe_ilo" is UNSUPPORTED. It has been deprecated and may be removed in a future release.
+2018-05-26 16:23:33.105 28575 WARNING ironic.common.driver_factory [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Driver "pxe_drac" is UNSUPPORTED. It has been deprecated and may be removed in a future release.
+2018-05-26 16:23:33.105 28575 WARNING ironic.common.driver_factory [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Driver "pxe_ipmitool" is UNSUPPORTED. It has been deprecated and may be removed in a future release.
+2018-05-26 16:23:33.106 28575 INFO ironic.common.driver_factory [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Loaded the following drivers: ['pxe_ilo', 'pxe_drac', 'pxe_ipmitool']
+2018-05-26 16:23:33.111 28575 INFO ironic.common.driver_factory [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Loaded the following hardware types: ['idrac', 'ilo', 'redfish', 'ipmi']
+2018-05-26 16:23:33.113 28575 INFO ironic.common.driver_factory [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Loaded the following network interfaces: ['flat', 'noop']
+2018-05-26 16:23:33.115 28575 INFO ironic.common.driver_factory [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Loaded the following storage interfaces: ['cinder', 'noop']
+2018-05-26 16:23:33.203 28575 INFO ironic.common.driver_factory [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Loaded the following management interfaces: ['idrac', 'ipmitool', 'ilo', 'redfish', 'fake']
+2018-05-26 16:23:33.207 28575 INFO ironic.common.driver_factory [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Loaded the following console interfaces: ['ipmitool-socat', 'no-console']
+2018-05-26 16:23:33.209 28575 INFO ironic.common.driver_factory [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Loaded the following power interfaces: ['idrac', 'ipmitool', 'ilo', 'redfish', 'fake']
+2018-05-26 16:23:33.212 28575 INFO ironic.common.driver_factory [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Loaded the following deploy interfaces: ['iscsi', 'direct', 'ansible']
+2018-05-26 16:23:33.214 28575 INFO ironic.common.driver_factory [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Loaded the following inspect interfaces: ['no-inspect', 'inspector']
+2018-05-26 16:23:33.219 28575 INFO ironic.common.driver_factory [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Loaded the following boot interfaces: ['ilo-pxe', 'pxe']
+2018-05-26 16:23:33.222 28575 INFO ironic.common.driver_factory [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Loaded the following vendor interfaces: ['idrac', 'ipmitool', 'no-vendor']
+2018-05-26 16:23:33.224 28575 INFO ironic.common.driver_factory [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Loaded the following raid interfaces: ['no-raid', 'idrac']
+2018-05-26 16:23:33.225 28575 INFO ironic.common.driver_factory [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Loaded the following rescue interfaces: ['no-rescue']
+2018-05-26 16:23:33.536 28575 INFO ironic.conductor.base_manager [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Successfully started conductor with hostname localhost.localdomain.
+2018-05-26 16:23:33.537 28575 INFO ironic.common.rpc_service [req-46d9a2cf-78da-41fa-bb1e-c2f7e8911a3e - - - - -] Created RPC server for service ironic.conductor_manager on host localhost.localdomain.
+2018-05-26 16:40:31.031 28575 INFO ironic.conductor.base_manager [-] Successfully stopped conductor with hostname localhost.localdomain.
+2018-05-26 16:40:31.043 28575 INFO ironic.conductor.base_manager [-] Successfully shut down periodic tasks
+2018-05-26 16:40:31.044 28575 INFO ironic.common.rpc_service [-] Stopped RPC server for service ironic.conductor_manager on host localhost.localdomain.
+2018-05-26 16:40:33.409 13769 WARNING oslo_config.cfg [-] Option "enabled_drivers" from group "DEFAULT" is deprecated for removal (Hardware types should be used instead of classic drivers. They are enabled via the enabled_hardware_types option.).  Its value may be silently ignored in the future.
+2018-05-26 16:40:33.422 13769 WARNING oslo_config.cfg [-] Option "api_url" from group "conductor" is deprecated for removal (Use [service_catalog]endpoint_override option instead if required to use a specific ironic api address, for example in noauth mode.).  Its value may be silently ignored in the future.
+2018-05-26 16:40:33.430 13769 WARNING oslo_config.cfg [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Option "rpc_thread_pool_size" from group "DEFAULT" is deprecated. Use option "executor_thread_pool_size" from group "DEFAULT".
+2018-05-26 16:40:35.426 13769 INFO ironic.drivers.modules.ipmitool [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Option timing is supported by ipmitool
+2018-05-26 16:40:35.451 13769 INFO ironic.drivers.modules.ipmitool [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Option single_bridge is supported by ipmitool
+2018-05-26 16:40:35.473 13769 INFO ironic.drivers.modules.ipmitool [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Option dual_bridge is supported by ipmitool
+2018-05-26 16:40:35.523 13769 WARNING ironic.common.driver_factory [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Driver "pxe_ilo" is UNSUPPORTED. It has been deprecated and may be removed in a future release.
+2018-05-26 16:40:35.523 13769 WARNING ironic.common.driver_factory [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Driver "pxe_drac" is UNSUPPORTED. It has been deprecated and may be removed in a future release.
+2018-05-26 16:40:35.524 13769 WARNING ironic.common.driver_factory [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Driver "pxe_ipmitool" is UNSUPPORTED. It has been deprecated and may be removed in a future release.
+2018-05-26 16:40:35.525 13769 INFO ironic.common.driver_factory [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Loaded the following drivers: ['pxe_ilo', 'pxe_drac', 'pxe_ipmitool']
+2018-05-26 16:40:35.531 13769 INFO ironic.common.driver_factory [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Loaded the following hardware types: ['idrac', 'ilo', 'redfish', 'ipmi']
+2018-05-26 16:40:35.533 13769 INFO ironic.common.driver_factory [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Loaded the following network interfaces: ['flat', 'noop']
+2018-05-26 16:40:35.535 13769 INFO ironic.common.driver_factory [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Loaded the following storage interfaces: ['cinder', 'noop']
+2018-05-26 16:40:35.645 13769 INFO ironic.common.driver_factory [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Loaded the following management interfaces: ['idrac', 'ipmitool', 'ilo', 'redfish', 'fake']
+2018-05-26 16:40:35.647 13769 INFO ironic.common.driver_factory [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Loaded the following console interfaces: ['ipmitool-socat', 'no-console']
+2018-05-26 16:40:35.649 13769 INFO ironic.common.driver_factory [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Loaded the following power interfaces: ['idrac', 'ipmitool', 'ilo', 'redfish', 'fake']
+2018-05-26 16:40:35.651 13769 INFO ironic.common.driver_factory [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Loaded the following deploy interfaces: ['iscsi', 'direct', 'ansible']
+2018-05-26 16:40:35.653 13769 INFO ironic.common.driver_factory [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Loaded the following inspect interfaces: ['no-inspect', 'inspector']
+2018-05-26 16:40:35.658 13769 INFO ironic.common.driver_factory [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Loaded the following boot interfaces: ['ilo-pxe', 'pxe']
+2018-05-26 16:40:35.660 13769 INFO ironic.common.driver_factory [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Loaded the following vendor interfaces: ['idrac', 'ipmitool', 'no-vendor']
+2018-05-26 16:40:35.662 13769 INFO ironic.common.driver_factory [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Loaded the following raid interfaces: ['no-raid', 'idrac']
+2018-05-26 16:40:35.664 13769 INFO ironic.common.driver_factory [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Loaded the following rescue interfaces: ['no-rescue']
+2018-05-26 16:40:36.340 13769 INFO ironic.conductor.base_manager [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Successfully started conductor with hostname localhost.localdomain.
+2018-05-26 16:40:36.341 13769 INFO ironic.common.rpc_service [req-4851b3c7-7f8c-48be-8b4a-46b7ce548af0 - - - - -] Created RPC server for service ironic.conductor_manager on host localhost.localdomain.

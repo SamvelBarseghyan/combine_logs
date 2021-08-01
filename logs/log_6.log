@@ -1,0 +1,47 @@
+2018-05-26 16:14:47.945 23939 WARNING oslo_config.cfg [-] Option "dnsmasq_interface" from group "firewall" is deprecated. Use option "dnsmasq_interface" from group "iptables".
+2018-05-26 16:14:47.950 23939 WARNING oslo_config.cfg [-] Option "auth_uri" from group "keystone_authtoken" is deprecated for removal (The auth_uri option is deprecated in favor of www_authenticate_uri and will be removed in the S  release.).  Its value may be silently ignored in the future.
+2018-05-26 16:14:47.951 23939 WARNING oslo_config.cfg [-] Option "auth_uri" from group "keystone_authtoken" is deprecated. Use option "www_authenticate_uri" from group "keystone_authtoken".
+2018-05-26 16:14:47.957 23939 WARNING keystonemiddleware.auth_token [-] AuthToken middleware is set with keystone_authtoken.service_token_roles_required set to False. This is backwards compatible but deprecated behaviour. Please set this to True.
+2018-05-26 16:14:47.962 23939 INFO ironic_inspector.wsgi_service [-] Introspection data will be stored in Swift in the container ironic-inspector
+2018-05-26 16:14:48.061 23939 INFO ironic_inspector.wsgi_service [-] Enabled processing hooks: ['ramdisk_error', 'root_disk_selection', 'scheduler', 'validate_interfaces', 'capabilities', 'pci_devices', 'extra_hardware', 'lldp_basic', 'local_link_connection']
+2018-05-26 16:14:54.796 23939 INFO werkzeug [-]  * Running on http://172.31.0.1:5050/
+2018-05-26 16:14:54.840 23939 WARNING keystonemiddleware.auth_token [-] Using the in-process token cache is deprecated as of the 4.2.0 release and may be removed in the 5.0.0 release or the 'O' development cycle. The in-process cache causes inconsistent results and high memory usage. When the feature is removed the auth_token middleware will not cache tokens by default which may result in performance issues. It is recommended to use  memcache for the auth_token token cache by setting the memcached_servers option.
+2018-05-26 16:14:54.851 23939 INFO werkzeug [req-87bce4c2-46ba-4874-97cb-272b68b44482 - - - - -] 172.31.0.1 - - [26/May/2018 16:14:54] "GET / HTTP/1.1" 200 -
+2018-05-26 16:14:55.355 23939 INFO werkzeug [req-b09025d2-92b0-48a9-bfb6-71630a1d7890 - - - - -] 172.31.0.1 - - [26/May/2018 16:14:55] "GET / HTTP/1.1" 200 -
+2018-05-26 16:14:55.848 23939 INFO werkzeug [req-f0bccbe9-ffd3-437e-ac5d-703d36f34644 - - - - -] 172.31.0.1 - - [26/May/2018 16:14:55] "GET / HTTP/1.1" 200 -
+2018-05-26 16:14:56.354 23939 INFO werkzeug [req-2e50e392-52c4-4786-b59b-e7cceeb01f79 - - - - -] 172.31.0.1 - - [26/May/2018 16:14:56] "GET / HTTP/1.1" 200 -
+2018-05-26 16:14:56.887 23939 INFO werkzeug [req-49f68b79-75d4-49ea-af39-6332aabbe5c2 - - - - -] 172.31.0.1 - - [26/May/2018 16:14:56] "GET / HTTP/1.1" 200 -
+2018-05-26 16:14:57.394 23939 INFO werkzeug [req-fc818afe-5541-42e2-bb22-3c96fd54850a - - - - -] 172.31.0.1 - - [26/May/2018 16:14:57] "GET / HTTP/1.1" 200 -
+2018-05-26 16:14:57.918 23939 INFO werkzeug [req-dacfd35f-08f7-497f-a018-658983681b33 - - - - -] 172.31.0.1 - - [26/May/2018 16:14:57] "GET / HTTP/1.1" 200 -
+2018-05-26 16:15:03.871 23939 INFO werkzeug [req-fd0a9ba7-e4a5-453a-aeaf-93cab24b7a17 - - - - -] 172.31.0.1 - - [26/May/2018 16:15:03] "GET / HTTP/1.1" 200 -
+2018-05-26 16:15:04.371 23939 INFO werkzeug [req-b1b224a2-60e1-48bd-a76e-99914cff9d9b - - - - -] 172.31.0.1 - - [26/May/2018 16:15:04] "GET / HTTP/1.1" 200 -
+2018-05-26 16:15:04.875 23939 INFO werkzeug [req-9397747b-695d-4536-b926-ad3856d424ac - - - - -] 172.31.0.1 - - [26/May/2018 16:15:04] "GET / HTTP/1.1" 200 -
+2018-05-26 16:15:05.380 23939 INFO werkzeug [req-14facdd7-ac3c-4729-9d1a-ccffcd4abb5f - - - - -] 172.31.0.1 - - [26/May/2018 16:15:05] "GET / HTTP/1.1" 200 -
+2018-05-26 16:15:05.878 23939 INFO werkzeug [req-332a54c3-f387-4608-85a8-019c1ce08d2f - - - - -] 172.31.0.1 - - [26/May/2018 16:15:05] "GET / HTTP/1.1" 200 -
+2018-05-26 16:15:06.380 23939 INFO werkzeug [req-40a1806f-57f4-454d-89ac-6b2a5a82d643 - - - - -] 172.31.0.1 - - [26/May/2018 16:15:06] "GET / HTTP/1.1" 200 -
+2018-05-26 16:15:06.873 23939 INFO werkzeug [req-08d0695f-99cd-4cf5-bfe7-a216f565ce7d - - - - -] 172.31.0.1 - - [26/May/2018 16:15:06] "GET / HTTP/1.1" 200 -
+2018-05-26 16:15:07.379 23939 INFO werkzeug [req-0b1ee149-0aa9-4571-9684-47dd2084062a - - - - -] 172.31.0.1 - - [26/May/2018 16:15:07] "GET / HTTP/1.1" 200 -
+2018-05-26 16:15:07.878 23939 INFO werkzeug [req-cf3d6187-8c8e-42b9-a149-d9ede4c1bfa0 - - - - -] 172.31.0.1 - - [26/May/2018 16:15:07] "GET / HTTP/1.1" 200 -
+2018-05-26 16:15:08.378 23939 INFO werkzeug [req-8534957b-a090-4530-8d42-4db99fc21bbb - - - - -] 172.31.0.1 - - [26/May/2018 16:15:08] "GET / HTTP/1.1" 200 -
+2018-05-26 16:15:08.872 23939 INFO werkzeug [req-d3d44e3e-ba4e-4e8a-818e-eadc6f942a69 - - - - -] 172.31.0.1 - - [26/May/2018 16:15:08] "GET / HTTP/1.1" 200 -
+2018-05-26 16:21:07.740 27507 WARNING oslo_config.cfg [-] Option "dnsmasq_interface" from group "firewall" is deprecated. Use option "dnsmasq_interface" from group "iptables".
+2018-05-26 16:21:07.745 27507 WARNING oslo_config.cfg [-] Option "auth_uri" from group "keystone_authtoken" is deprecated for removal (The auth_uri option is deprecated in favor of www_authenticate_uri and will be removed in the S  release.).  Its value may be silently ignored in the future.
+2018-05-26 16:21:07.747 27507 WARNING oslo_config.cfg [-] Option "auth_uri" from group "keystone_authtoken" is deprecated. Use option "www_authenticate_uri" from group "keystone_authtoken".
+2018-05-26 16:21:07.753 27507 WARNING keystonemiddleware.auth_token [-] AuthToken middleware is set with keystone_authtoken.service_token_roles_required set to False. This is backwards compatible but deprecated behaviour. Please set this to True.
+2018-05-26 16:21:07.758 27507 INFO ironic_inspector.wsgi_service [-] Introspection data will be stored in Swift in the container ironic-inspector
+2018-05-26 16:21:07.841 27507 INFO ironic_inspector.wsgi_service [-] Enabled processing hooks: ['ramdisk_error', 'root_disk_selection', 'scheduler', 'validate_interfaces', 'capabilities', 'pci_devices', 'extra_hardware', 'lldp_basic', 'local_link_connection']
+2018-05-26 16:21:12.862 27507 INFO werkzeug [-]  * Running on http://172.31.0.1:5050/
+2018-05-26 16:23:26.843 28535 WARNING oslo_config.cfg [-] Option "dnsmasq_interface" from group "firewall" is deprecated. Use option "dnsmasq_interface" from group "iptables".
+2018-05-26 16:23:26.848 28535 WARNING oslo_config.cfg [-] Option "auth_uri" from group "keystone_authtoken" is deprecated for removal (The auth_uri option is deprecated in favor of www_authenticate_uri and will be removed in the S  release.).  Its value may be silently ignored in the future.
+2018-05-26 16:23:26.849 28535 WARNING oslo_config.cfg [-] Option "auth_uri" from group "keystone_authtoken" is deprecated. Use option "www_authenticate_uri" from group "keystone_authtoken".
+2018-05-26 16:23:26.856 28535 WARNING keystonemiddleware.auth_token [-] AuthToken middleware is set with keystone_authtoken.service_token_roles_required set to False. This is backwards compatible but deprecated behaviour. Please set this to True.
+2018-05-26 16:23:26.861 28535 INFO ironic_inspector.wsgi_service [-] Introspection data will be stored in Swift in the container ironic-inspector
+2018-05-26 16:23:26.956 28535 INFO ironic_inspector.wsgi_service [-] Enabled processing hooks: ['ramdisk_error', 'root_disk_selection', 'scheduler', 'validate_interfaces', 'capabilities', 'pci_devices', 'extra_hardware', 'lldp_basic', 'local_link_connection']
+2018-05-26 16:23:34.328 28535 INFO werkzeug [-]  * Running on http://172.31.0.1:5050/
+2018-05-26 16:40:28.508 13722 WARNING oslo_config.cfg [-] Option "dnsmasq_interface" from group "firewall" is deprecated. Use option "dnsmasq_interface" from group "iptables".
+2018-05-26 16:40:28.513 13722 WARNING oslo_config.cfg [-] Option "auth_uri" from group "keystone_authtoken" is deprecated for removal (The auth_uri option is deprecated in favor of www_authenticate_uri and will be removed in the S  release.).  Its value may be silently ignored in the future.
+2018-05-26 16:40:28.515 13722 WARNING oslo_config.cfg [-] Option "auth_uri" from group "keystone_authtoken" is deprecated. Use option "www_authenticate_uri" from group "keystone_authtoken".
+2018-05-26 16:40:28.521 13722 WARNING keystonemiddleware.auth_token [-] AuthToken middleware is set with keystone_authtoken.service_token_roles_required set to False. This is backwards compatible but deprecated behaviour. Please set this to True.
+2018-05-26 16:40:28.526 13722 INFO ironic_inspector.wsgi_service [-] Introspection data will be stored in Swift in the container ironic-inspector
+2018-05-26 16:40:28.613 13722 INFO ironic_inspector.wsgi_service [-] Enabled processing hooks: ['ramdisk_error', 'root_disk_selection', 'scheduler', 'validate_interfaces', 'capabilities', 'pci_devices', 'extra_hardware', 'lldp_basic', 'local_link_connection']
+2018-05-26 16:40:35.703 13722 INFO werkzeug [-]  * Running on http://172.31.0.1:5050/
