@@ -1,4 +1,4 @@
-**Warning**
+**Warning:**
 
     Before running script and passing as argument path to directory with log files, check that content of '.log' files are 
     sorted and validated, because of in example files given by interviewer, some files are not sorted and some lines 
